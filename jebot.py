@@ -90,7 +90,7 @@ async def kick_restricted_after_delay(delay, button_message: Message):
     user_id = join_message.from_user.id
     await join_message.delete()
     await button_message.delete()
-    await _ban_restricted_user_until_date(group_chat, user_id, duration=delay)
+    await _ban_restricted_user_until_date(group_chat, user_id, duration=20)
 
 
 @Jebot.on_message(filters.left_chat_member)
@@ -99,7 +99,7 @@ async def left_chat_member(_, message: Message):
     group_chat = message.chat
     user_id = message.left_chat_member.id
     await _ban_restricted_user_until_date(group_chat, user_id,
-                                          duration=WELCOME_DELAY_KICK_SEC)
+                                          duration=20)
 
 
 async def _ban_restricted_user_until_date(group_chat,
