@@ -1,5 +1,5 @@
 {
-    "name": "Jaguar Assistant Bot",
+    "name": "Mitsuki Assistant Bot",
     "description": "A bot that can protect your groups from bot spamming.",
     "logo": "https://telegra.ph/file/93bc71972653bfd95bcd9.jpg",
     "keywords": [
@@ -8,9 +8,9 @@
         "Telegram Bot",
         "JE Bots"
     ],
-    "website": "https://infinityje.com",
-    "repository": "https://github.com/ImJanindu/jaguar-assistant-bot",
-    "success_url": "https://t.me/Infinity_BOTs",
+    "website": "https://t.me/aestheticboyy2",
+    "repository": "https://github.com/Bos-X/jaguar-assistant-bot",
+    "success_url": "https://t.me/viraltwittergrup",
     "env": {
         "TG_BOT_TOKEN": {
             "description": "You Telegram Bot Token from @BotFather",
