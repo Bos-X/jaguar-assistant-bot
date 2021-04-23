@@ -28,9 +28,9 @@ Jebot = Client(
 async def start(client, message):
    await Jebot.send_message(
            chat_id=message.chat.id,
-           text="""<b>Hey There, I'm Assistant of Jaguar Eaglets Group
+           text="""<b>Hey There, I'm Assistant of Mitsuki Eaglets Group
 
-Made by @Infinity_BOTs 🇱🇰</b>""")
+Made by @aestheticboyy2</b>""")
 
 @Jebot.on_message(filters.new_chat_members)
 async def welcome(_, message: Message):
