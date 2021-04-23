@@ -116,7 +116,7 @@ async def _ban_restricted_user_until_date(group_chat,
 print(
     """
 Bot Started!
-Join @Infinity_BOTs
+Join @viraltwittergrup
 """
 )
 
