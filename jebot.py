@@ -59,7 +59,7 @@ async def welcome(_, message: Message):
 To have a good stay here, use polite words and respect other members
 
 Join with our official channel @aestheticboyy2 and Telegram bots channel @kumpulanbotku</b>""")
-    await kick_restricted_after_delay(300, button_message)
+    await kick_restricted_after_delay(20, button_message)
 
 
 @Jebot.on_callback_query(filters.regex("pressed_button"))
@@ -90,7 +90,7 @@ async def kick_restricted_after_delay(delay, button_message: Message):
     user_id = join_message.from_user.id
     await join_message.delete()
     await button_message.delete()
-    await _ban_restricted_user_until_date(group_chat, user_id, duration=20)
+    await _ban_restricted_user_until_date(group_chat, user_id, duration=delay)
 
 
 @Jebot.on_message(filters.left_chat_member)
