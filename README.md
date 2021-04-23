@@ -10,7 +10,7 @@ If you want to make bot like this first fork the repo and edit values as you wis
 
 ### Deploy to Heroku 🏃‍♂
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ImJanindu/jaguar-assistant-bot)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Bos-X/jaguar-assistant-bot)
 
 ### Credits:
 
