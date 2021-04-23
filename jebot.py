@@ -54,11 +54,11 @@ async def welcome(_, message: Message):
         ),
         quote=True
     )
-    await message.reply(f"""<b>✨ Hi {', '.join(new_members)}, welcome to Infinity JE group chat!
+    await message.reply(f"""<b>✨ Hi {', '.join(new_members)}, welcome to group chat!
 
 To have a good stay here, use polite words and respect other members
 
-Join with our official channel @InfJE and Telegram bots channel @Infinity_BOTs</b>""")
+Join with our official channel @aestheticboyy2 and Telegram bots channel @kumpulanbotku</b>""")
     await kick_restricted_after_delay(300, button_message)
 
 
